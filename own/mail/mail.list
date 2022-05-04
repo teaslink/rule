@@ -11,3 +11,5 @@ DOMAIN,pop.gmail.com
 DOMAIN,smtp-mail.outlook.com
 DOMAIN,smtp.gmail.com
 DOMAIN,smtp.office365.com
+DOMAIN,apis.live.net
+DOMAIN,www.googleapis.com
