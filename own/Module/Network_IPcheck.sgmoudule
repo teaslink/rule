@@ -4,10 +4,5 @@
 [Panel]
 Network = script-name=Network,title=Network,content=请刷新,style=info,update-interval=60
 
-刷新DNS = script-name=刷新DNS,update-interval=1
-
 [Script]
 Network = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/teaslink/Rules/master/own/Script/Ipcheck.js
-
-刷新DNS = type=generic,timeout=3,script-path=https://raw.githubusercontent.com/teaslink/Rules/master/own/Script/FlushDNS.js,argument=title=𝐓𝐞𝐬𝐭 𝐋𝐚𝐭𝐞𝐧𝐜𝐲&icon=arrow.clockwise.heart&color=# ffccff&server=false
-
