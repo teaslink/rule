@@ -19,7 +19,7 @@ $httpClient.get(url, function(error, response, data){
     let isp = jsonData.isp
     
   body = {
-    title: "Network Information",
+    title: "Network",
     content: `IP: ${ip}\nISP: ${isp}\nLocation: ${emoji}${country} - ${city}`,
     icon: "link.icloud",
     'icon-color': "#5AC8FA"
