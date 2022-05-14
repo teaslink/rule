@@ -1,0 +1,8 @@
+#!name=Network
+#!desc=Network_IPchcek
+
+[Panel]
+Network = script-name=Network,title=Network,content=请刷新,style=info,update-interval=60
+
+[Script]
+Network = type=generic,timeout=5,script-path=https://raw.githubusercontent.com/teaslink/Rules/master/own/Script/Ipcheck.js
